@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import "common.css";
+@import "header/header.css";
+@import "login/login-register.css";
+@import "home/home.css";
+@import "servics/service.css";

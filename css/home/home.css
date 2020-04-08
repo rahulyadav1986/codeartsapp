@@ -1,0 +1,60 @@
+@import "../../css/owl.carousel.min.css";
+.main-landing-page{
+    width: 100%; height: 100vh; float: left; position: relative;
+}
+.main-landing-page .slider-back{
+    width: 100%; height: 100%;
+}
+.main-landing-page .slider-back .portion{
+    width: 100%; height: 100vh; position: relative; 
+}
+.main-landing-page .slider-back img{
+    width: 100%; height: 100%; position: absolute; top: 0; left: 0; object-fit: cover;
+}
+.main-landing-page .slider-back .portion:before{
+    background-color: rgba(24,20,57,.66); width: 100%; height: 100%; position: absolute; top: 0; left: 0; content: ""; z-index: 1;
+}
+.slider-content{
+    width: 100%; height: 100%; position: absolute; top: 0; left: 0; padding-top: 149px; text-align: center; z-index: 2;
+}
+.slider-content h2{
+    font-size: 53px;width: 100%; text-align: center; float: left; padding: 0 97px; line-height: 68px;
+}
+.slider-content p{
+    font-size: 22px; line-height: 40px; position: absolute; bottom: 246px; left: 0; width: 100%; float: left; padding: 0 84px; 
+}
+
+.main-landing-page .owl-dots{
+    position: absolute; bottom: 180px; left: 0; width: 100%; text-align: center;
+}
+.main-landing-page .owl-dots button{ background-color: transparent; border: none; outline-style: none; cursor: pointer; display: inline-block; margin-right: 12px}
+.main-landing-page .owl-dots button span{ width: 13px; height: 13px; background-color: rgba(255,255,255,.4); border-radius: 100%; transition: all .5s ease-in-out;}
+.main-landing-page .owl-dots button span:hover{background-color: rgba(255,255,255,1);}
+.main-landing-page .owl-dots button.active span{ width: 13px; height: 13px; background-color: rgba(255,255,255,1); border-radius: 100%;}
+.main-landing-page .custom-button{
+    position: fixed; bottom: 56px; left: 0; z-index: 3; padding: 0 35px;
+}
+@media only screen and (max-width:580px){
+    .slider-content h2{ 
+        font-size: 40px; padding: 0 58px;
+    }
+    .slider-content p{
+        padding: 0 30px; font-size: 18px;
+    }
+    .slider-content{
+        padding-top: 73px;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .slider-content h2{ 
+        font-size: 30px; padding: 0 55px; line-height: 49px;
+    }
+    .slider-content p{
+        padding: 0 20px; font-size: 16px;
+    }
+    .slider-content{
+        padding-top: 73px;
+    }
+}
+  

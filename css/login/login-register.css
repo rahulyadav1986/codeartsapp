@@ -1,0 +1,112 @@
+.login-register-back{
+    width: 100%; height: auto; float: left; background-image: url(../../images/main-bg.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover; position: relative;
+}
+.login-register-back:before{
+    background-color: rgba(24,20,57,.66); width: 100%; height: 100%; position: absolute; top: 0; left: 0; content: "";
+}
+.login-register-back:after{
+background: -moz-linear-gradient(top,  rgba(24,20,57,0) 0%, rgba(22,18,53,0.67) 67%, rgba(22,18,53,1) 100%); 
+background: -webkit-linear-gradient(top,  rgba(24,20,57,0) 0%,rgba(22,18,53,0.67) 67%,rgba(22,18,53,1) 100%); 
+background: linear-gradient(to bottom,  rgba(24,20,57,0) 0%,rgba(22,18,53,0.67) 67%,rgba(22,18,53,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00181439', endColorstr='#161235',GradientType=0 ); width: 100%; height: 160px; position: absolute; bottom: 0; left: 0; content: "";
+}
+
+.login-register-back .heading{
+    width: 100%; position: relative; float: left; min-height: 160px;
+}
+.login-register-back .heading span{
+    position: absolute; top: -19px; left: 0; font-size: 50px; cursor: pointer;
+}
+.login-register-back h1{
+    font-size: 36px; text-align: center; letter-spacing: 2px;
+}
+.login-register-back .logo{min-height: 85px;}
+
+.login-register-back .form-back{
+    width: 100%; float: left; margin-top: 62px;
+}
+.login-register-back .form-back .portion{
+    width: 100%; float: left; padding-left:83px;  padding-bottom:36px; margin-bottom: 36px; position: relative; height: auto;
+    
+}
+.login-register-back .form-back .portion:after{
+    width:100%; height: 2px; position: absolute; left:0; bottom: 0; content: "";
+    background: -moz-linear-gradient(left,  rgba(122,188,255,0) 0%, rgba(255,255,255,.2) 50%, rgba(64,150,238,0) 100%); 
+    background: -webkit-linear-gradient(left,  rgba(122,188,255,0) 0%,rgba(255,255,255,.2) 50%,rgba(64,150,238,0) 100%); 
+    background: linear-gradient(to right,  rgba(122,188,255,0) 0%,rgba(255,255,255,.2) 50%,rgba(64,150,238,0) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007abcff', endColorstr='#004096ee',GradientType=1 ); 
+    
+}
+
+.login-register-back .form-back .portion label{
+    font-size: 18px; letter-spacing: 3px; text-transform: uppercase; font-weight: normal;
+}
+.login-register-back .form-back .portion input[type="text"], input[type="email"], input[type="password"]{ 
+    width: 100%; height: 32px; border: none; background-color: transparent; outline-style: none; font-size: 18px; letter-spacing: 3px; color: rgba(255,255,255,.5);
+}
+
+.login-register-back .form-back .portion span{
+    position: absolute; top: 0; left: 10px;  color: #fff; font-size: 40px; height: 60px; display: flex; align-items: center;
+}
+.login-register-back .form-back .portion input[type="text"], input[type="email"], input[type="password"]::-webkit-input-placeholder{
+    color: rgba(255,255,255,.5);
+}
+.login-register-back .form-back .portion input[type="text"], input[type="email"], input[type="password"]::-moz-placeholder { 
+    color: rgba(255,255,255,.5);
+}
+.login-register-back .form-back .portion input[type="text"], input[type="email"], input[type="password"]:-ms-input-placeholder { 
+    color: rgba(255,255,255,.5);
+}
+.login-register-back .form-back .portion input[type="text"], input[type="email"], input[type="password"]:-moz-placeholder {
+    color: rgba(255,255,255,.5);
+}
+.login-register-back .form-back .portion a{ font-size: 17px; color: rgba(255,255,255,.5); position: absolute; bottom: 22px; right: 0; letter-spacing: 1px;}
+.login-register-back .form-back input[type="submit"]{
+background: rgb(1,162,255);
+background: -moz-linear-gradient(top,  rgba(1,162,255,1) 0%, rgba(1,91,255,1) 98%); 
+background: -webkit-linear-gradient(top,  rgba(1,162,255,1) 0%,rgba(1,91,255,1) 98%); 
+background: linear-gradient(to bottom,  rgba(1,162,255,1) 0%,rgba(1,91,255,1) 98%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a2ff', endColorstr='#015bff',GradientType=0 );
+
+width: 100%; height: 80px; line-height: 80px; text-align: center; border-radius: 100px; cursor: pointer; outline-style: none; border: none; float: left; color: #fff; font-size: 30px; font-weight: 500; font-family: 'Ubuntu', sans-serif; margin-top: 15px;
+}
+
+.login-register-back .default-back{
+    text-align: center; margin-top: 86px; position: relative; z-index: 1;
+}
+.login-register-back .default-back p{color: rgba(255,255,255,.6); letter-spacing: 1px; font-size: 22px; margin-bottom: 10px;}
+.login-register-back .default-back a{ font-size: 24px; font-weight: 500; letter-spacing: 1px; }
+
+
+@media only screen and (max-width: 380px){
+    .login-register-back .heading{
+        min-height: 97px;
+    }
+    .login-register-back h1{
+        font-size: 24px;
+    }
+    .login-register-back .form-back .portion{
+        padding-left: 58px; padding-bottom: 25px; margin-bottom: 25px;
+    }
+    .login-register-back .form-back .portion span{
+        font-size: 30px; 
+    }
+    .login-register-back .form-back .portion label{
+        font-size: 14px;
+    }
+    .login-register-back .form-back input[type="submit"]{
+        height: 60px; line-height: 60px; font-size: 24px;
+    }
+    .login-register-back .default-back{ 
+        margin-top: 60px;
+    }
+    .login-register-back .form-back .portion input[type="text"], input[type="email"], input[type="password"]{
+        font-size: 14px; letter-spacing: 1px;
+     }
+     .login-register-back .heading span{
+         font-size: 42px; top: -18px;
+     }
+     .login-register-back .form-back .portion a{
+         bottom: 12px; font-size: 14px;
+     }
+}

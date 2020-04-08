@@ -1,0 +1,58 @@
+.header{
+    width: 100%; height: 80px; margin: 0; padding: 0; float: left; background-color: #181439; float: left; position: absolute; cursor: pointer;
+}
+.header .humberger-menu{
+    width: 84px; height: 100%; position: absolute; top: 0; left: 0;
+}
+.header .humberger-menu span{
+    width: 30px; height: 3px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; background-color: #fff;
+}
+.header .humberger-menu span:before{
+    width: 100%; height: 100%; position: absolute; top: -9px; left: 0; background-color: #fff; content: "";
+}
+.header .humberger-menu span:after{
+    width: 100%; height: 100%; position: absolute; top: 9px; left: 0; background-color: #fff; content: "";
+}
+
+.side-menu{
+    width: 70%; height: 100%; overflow: auto; position: fixed; top: 0; left: 0; background-color: rgba(25,21,44,1); padding: 77px 0; box-shadow: rgba(0,0,0,.4) 15px 0 29px; padding: 76px 46px 0 46px;
+}
+.side-menu .menu{
+    margin-top: 100px;
+}
+.side-menu .menu li{ 
+    width: 100%; float: left; padding-left: 58px; position: relative;
+}
+.side-menu .menu li a{
+    width: 100%; float: left; font-size: 20px; text-transform: capitalize; padding: 30px 0; border-bottom: #312e42 1px solid; font-weight: normal; color: rgba(255,255,255,.8)
+}
+.side-menu .menu li:last-child a{ border: none;}
+.side-menu .menu li a span{
+    position: absolute; top: 0; left: 0; bottom: 0; margin: auto; height: 100%; display: flex; justify-content: center; align-items: center; font-size: 28px;
+}
+
+.side-menu .social-media-back{ 
+    width: 100%; float: left;
+}
+.side-menu .social-media-back li{
+    float: left; margin: 0 10px 0 0; padding: 0; float: left; list-style: none;
+}
+.side-menu .social-media-back li:last-child{ margin: 0;}
+.side-menu .social-media-back li a{ width: 37px; height: 37px; border-radius: 100%; float: left; display: flex; justify-content: center; align-items: center;}
+.side-menu .social-media-back li a span{ font-size: 20px;} 
+.side-menu .social-media-back li a.facebook{ background-color: #3b5998;}
+.side-menu .social-media-back li a.twitter{ background-color: #55acee;}
+.side-menu .social-media-back li a.pinterest{ background-color: #f44336;}
+.side-menu .social-media-back li a.linkedin{ background-color: #007ab9;}
+
+.social-back{ padding-left: 176px; position: relative; margin-top: 156px;}
+.social-back p{ position: absolute; top: 5px; left: 0; font-size: 20px; }
+.log-out{
+    color: #01b9ff; font-size: 20px; margin-top: 50px; margin-bottom: 50px; float: left;
+}
+.log-out span{ font-size: 28px; margin: 3px 15px 0 0;}
+@media only screen and (max-width:500px){
+    .side-menu { width: 300px;}
+    .social-back{ padding-left: 0; margin-top: 30px;}
+    .social-back p{ position: relative; top: 0; margin-bottom: 20px;}
+}
