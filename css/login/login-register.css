@@ -99,7 +99,7 @@ width: 100%; height: 80px; line-height: 80px; text-align: center; border-radius:
         height: 60px; line-height: 60px; font-size: 24px;
     }
     .login-register-back .default-back{ 
-        margin-top: 60px;
+        margin-top: 60px; position: relative;
     }
     .login-register-back .form-back .portion input[type="text"], input[type="email"], input[type="password"]{
         font-size: 14px; letter-spacing: 1px;
@@ -113,4 +113,5 @@ width: 100%; height: 80px; line-height: 80px; text-align: center; border-radius:
      .login-register-back .form-back input[type="submit"]{ width: 200px; margin: 0 auto; float: none; display: block; height: 50px; line-height: 50px;     font-size: 20px; font-weight: normal;}
      .login-register-back .default-back p{ font-size: 16px;}
      .login-register-back .default-back a{ font-size: 20px;}
+     .login-register-back{ height: 100%;}
 }

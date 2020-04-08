@@ -102,6 +102,7 @@ width: 100%; height: 80px; line-height: 80px; text-align: center; border-radius:
 @media only screen and (max-width:420px){
   .p-t{ padding-top: 40px;}  
   .custom-button a{width: 200px; margin: 0 auto; float: none; display: block; height: 50px; line-height: 50px;     font-size: 20px; font-weight: normal;}
-
+  .content-area{
+    min-height: 644px;
   }
 }
