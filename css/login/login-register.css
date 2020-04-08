@@ -1,5 +1,5 @@
 .login-register-back{
-    width: 100%; height: auto; float: left; background-image: url(../../images/main-bg.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover; position: relative;
+    width: 100%; height: 100vh; float: left; background-image: url(../../images/main-bg.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover; position: relative;
 }
 .login-register-back:before{
     background-color: rgba(24,20,57,.66); width: 100%; height: 100%; position: absolute; top: 0; left: 0; content: "";
@@ -72,16 +72,17 @@ width: 100%; height: 80px; line-height: 80px; text-align: center; border-radius:
 }
 
 .login-register-back .default-back{
-    text-align: center; margin-top: 86px; position: relative; z-index: 1;
+    text-align: center; margin-top: 86px; position: absolute; width: 100%; bottom: 0; left: 0; z-index: 1;
 }
 .login-register-back .default-back p{color: rgba(255,255,255,.6); letter-spacing: 1px; font-size: 22px; margin-bottom: 10px;}
 .login-register-back .default-back a{ font-size: 24px; font-weight: 500; letter-spacing: 1px; }
 
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 420px){
     .login-register-back .heading{
-        min-height: 97px;
+        min-height: 66px;
     }
+    .login-register-back .form-back{ margin-top: 30px;}
     .login-register-back h1{
         font-size: 24px;
     }
@@ -109,4 +110,7 @@ width: 100%; height: 80px; line-height: 80px; text-align: center; border-radius:
      .login-register-back .form-back .portion a{
          bottom: 12px; font-size: 14px;
      }
+     .login-register-back .form-back input[type="submit"]{ width: 200px; margin: 0 auto; float: none; display: block; height: 50px; line-height: 50px;     font-size: 20px; font-weight: normal;}
+     .login-register-back .default-back p{ font-size: 16px;}
+     .login-register-back .default-back a{ font-size: 20px;}
 }

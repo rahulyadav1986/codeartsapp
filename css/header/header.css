@@ -48,11 +48,14 @@
 .social-back{ padding-left: 176px; position: relative; margin-top: 156px;}
 .social-back p{ position: absolute; top: 5px; left: 0; font-size: 20px; }
 .log-out{
-    color: #01b9ff; font-size: 20px; margin-top: 50px; margin-bottom: 50px; float: left;
+    color: #01b9ff; font-size: 20px; margin-top: 50px; margin-bottom: 30px; float: left;
 }
 .log-out span{ font-size: 28px; margin: 3px 15px 0 0;}
 @media only screen and (max-width:500px){
-    .side-menu { width: 300px;}
+    .side-menu { width: 300px; padding: 46px 20px 0 20px;} 
     .social-back{ padding-left: 0; margin-top: 30px;}
     .social-back p{ position: relative; top: 0; margin-bottom: 20px;}
+    .side-menu .menu li a{     padding: 20px 0; font-size: 16px;}
+    .side-menu .menu li a span{ font-size: 22px}
+    .side-menu .menu li{    padding-left: 48px;}
 }

@@ -18,7 +18,7 @@ ul li{
 .logo{ width: 100%; text-align: center; float: left; }
 .logo img{ display: inline-block; width: 168px; }
 .content-area{
-  width: 100%; float: left; position: relative;
+  width: 100%; height: 100%; float: left; position: relative;
 }
 .spalsh-screen{
   width: 100%; height:100vh; position: fixed; top: 0; left: 0; background-image: url(../images/main-bg.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover; z-index: 10;
@@ -98,3 +98,10 @@ width: 100%; height: 80px; line-height: 80px; text-align: center; border-radius:
 .flaticon-user:before { content: "\f110"; }
 .flaticon-services:before { content: "\f111"; }
 .flaticon-left-arrow:before { content: "\f112"; }
+
+@media only screen and (max-width:420px){
+  .p-t{ padding-top: 40px;}  
+  .custom-button a{width: 200px; margin: 0 auto; float: none; display: block; height: 50px; line-height: 50px;     font-size: 20px; font-weight: normal;}
+
+  }
+}

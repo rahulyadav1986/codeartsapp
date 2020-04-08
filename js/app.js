@@ -17,28 +17,5 @@ const newLocal = setInterval(function () {
     });*/
     setTimeout(function () {
         jQuery('.spalsh-screen').hide();
-    }, 3000);
-    jQuery('.bannar-slider').owlCarousel({
-        loop: true,
-        margin: 0,
-        smartSpeed: 450,
-        auto: true,
-        nav: false,
-        dots: true,
-        touchDrag: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            980: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    });
+    }, 3000);    
 })

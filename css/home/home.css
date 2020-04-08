@@ -46,15 +46,16 @@
     }
 }
 
-@media only screen and (max-width:380px){
+@media only screen and (max-width:420px){
     .slider-content h2{ 
-        font-size: 30px; padding: 0 55px; line-height: 49px;
+        font-size: 34px; padding: 0 55px; line-height: 46px;
     }
     .slider-content p{
-        padding: 0 20px; font-size: 16px;
+        padding: 0 20px; font-size: 16px; line-height: 32px;
     }
     .slider-content{
         padding-top: 73px;
     }
+    
 }
   
