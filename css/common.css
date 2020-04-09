@@ -18,7 +18,7 @@ ul li{
 .logo{ width: 100%; text-align: center; float: left; }
 .logo img{ display: inline-block; width: 168px; }
 .content-area{
-  width: 100%; height: 100%; float: left; position: relative;
+  width: 100%; height: 1024px; float: left; position: relative;
 }
 .spalsh-screen{
   width: 100%; height:100vh; position: fixed; top: 0; left: 0; background-image: url(../images/main-bg.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover; z-index: 10;
@@ -99,10 +99,24 @@ width: 100%; height: 80px; line-height: 80px; text-align: center; border-radius:
 .flaticon-services:before { content: "\f111"; }
 .flaticon-left-arrow:before { content: "\f112"; }
 
+.ovearlay{ width: 100%; height: 100%; background-color: rgba(25,21,44,.98); position: fixed; top: 0; left: 0; opacity: 0; visibility: hidden; 
+  -webkit-visibility: hidden; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; z-index: 2;} 
+.ovearlay.open{  opacity: 1; visibility: visible; -webkit-visibility: visible;  -webkit-visibility: visible;}
+
+.all-page-wrapper{
+  width: 100%; float: left; position: relative;     
+}
+.all-page-wrapper h1.title{
+    text-align: center; height: 80px;line-height: 80px; font-size: 30px;
+}
+
+
 @media only screen and (max-width:420px){
   .p-t{ padding-top: 40px;}  
   .custom-button a{width: 200px; margin: 0 auto; float: none; display: block; height: 50px; line-height: 50px;     font-size: 20px; font-weight: normal;}
   .content-area{
-    min-height: 644px;
+    min-height: 644px; height: auto;
   }
+  .all-page-wrapper h1.title{font-size: 24px;}
+ 
 }

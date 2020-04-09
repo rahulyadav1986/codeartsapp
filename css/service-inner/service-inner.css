@@ -1,0 +1,59 @@
+.service-inner-back{
+    background-image: url(../../images/service-bg.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover;
+}
+.service-inner-back:before{
+    width: 100%; height: 100%; background-color: rgba(11,9,34,.46); position: absolute; top: 0; left: 0; content: "";
+}
+.service-inner-back, .image-back{
+    width: 100%; float: left; position: relative;
+}
+
+.service-inner-back .image-back { overflow: hidden;}
+.service-inner-back .image-back img{
+    width: 100%; height: 556px; display: block; object-fit: cover; object-position: top right;
+}
+.service-inner-back .image-back:before{
+    position: absolute; bottom: 0; left: 0; width: 0; height: 0; border-top: 74px solid transparent;   border-right:768px solid #060611; content: "";
+}
+.service-inner-back .main-drescription-back, .section{
+    width: 100%; float: left; text-align: center;
+}
+.service-inner-back .main-drescription-back .section{ padding: 50px 0;}
+.service-inner-back .main-drescription-back h3{
+    font-size: 32px; padding-bottom: 35px; margin-bottom: 35px; position: relative;
+}
+.service-inner-back .main-drescription-back h3:after{
+    width: 130px; height: 6px; border-radius: 20px; position: absolute; bottom: 0; left: 0; right: 0; margin: auto; content: ""; background-color: #01b9ff;
+}
+.service-inner-back .main-drescription-back p{
+    font-size: 16px; color: #adadad; width: 75%; display: inline-block; line-height: 31px;
+}
+.service-inner-back .main-drescription-back .section:first-child{ padding-bottom: 0;}
+.service-inner-back .main-drescription-back .section:first-child .highlight-back{
+    background-color: #014fb4; padding: 50px 0; margin-top: 50px;
+}
+.service-inner-back .main-drescription-back .highlight-back p{ color: #fff; }
+
+@media only screen and (max-width:600px){
+    .service-inner-back .main-drescription-back h3{ 
+        font-size: 20px;
+    }
+    .service-inner-back .image-back img{
+        height: 360px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .service-inner-back .main-drescription-back .section{
+        padding: 40px 0;
+    }
+    .service-inner-back .main-drescription-back h3{ 
+        font-size: 20px;
+    }
+    .service-inner-back .image-back img{
+        height: 360px;
+    }
+    .service-inner-back .main-drescription-back p{
+        width: 90%;
+    }
+}

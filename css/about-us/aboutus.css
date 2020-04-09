@@ -1,0 +1,63 @@
+.about-back{
+    background-image: url(../../images/about-bg.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover; padding: 15px; width: 100%; float: left;
+}
+.about-main-back{
+    border-radius: 10px; box-shadow: rgba(0,0,0,.4) 1px 0 20px; width: 100%; float: left; border-radius: 10px; overflow: hidden;
+}
+.about-back:before{
+    width: 100%; height: 100%; background-color: rgba(9,8,30,.46); position: absolute; top: 0; left: 0; content: "";
+}
+.about-back, .image-back{
+    width: 100%; float: left; position: relative;
+}
+
+.about-back .image-back { overflow: hidden;}
+.about-back .image-back img{
+    width: 100%; height: 556px; display: block; object-fit: cover; object-position: top right;
+}
+.about-back .image-back:before{
+    position: absolute; bottom: 0; left: 0; width: 0; height: 0; border-top: 74px solid transparent;   border-right:768px solid #fff; content: "";
+}
+
+.about-back .main-drescription-back{ margin: -2px 0 0 0; text-align: center;}
+
+.about-back .main-drescription-back, .section{
+    width: 100%; float: left; text-align: center; position: relative;
+}
+.about-back .main-drescription-back .section{ padding: 50px 0; background-color: #fff;}
+.about-back .main-drescription-back h3{
+    font-size: 32px; padding-bottom: 35px; margin-bottom: 35px; position: relative; color: #3c4f5e;
+}
+.about-back .main-drescription-back h3:after{
+    width: 130px; height: 6px; border-radius: 20px; position: absolute; bottom: 0; left: 0; right: 0; margin: auto; content: ""; background-color: #01b9ff;
+}
+.about-back .main-drescription-back p{
+    font-size: 18px; color: #323c46; width: 75%; display: inline-block; line-height: 36px;
+}
+.about-back .main-drescription-back .custom-button{ width: 75%; display: inline-block; float: none; margin-top: 30px;}
+
+
+
+@media only screen and (max-width:600px){
+    .about-back .main-drescription-back h3{ 
+        font-size: 30px;
+    }
+    .about-back .image-back img{
+        height: 360px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .about-back.main-drescription-back .section{
+        padding: 40px 0;
+    }
+    .about-back .main-drescription-back h3{ 
+        font-size: 20px;
+    }
+    .about-back .image-back img{
+        height: 360px;
+    }
+    .about-back .main-drescription-back p{
+        width: 90%; font-size: 14px;
+    }
+}

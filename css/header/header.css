@@ -2,7 +2,7 @@
     width: 100%; height: 80px; margin: 0; padding: 0; float: left; background-color: #181439; float: left; position: absolute; cursor: pointer;
 }
 .header .humberger-menu{
-    width: 84px; height: 100%; position: absolute; top: 0; left: 0;
+    width: 84px; height: 100%; position: absolute; top: 0; left: 0; z-index: 3;
 }
 .header .humberger-menu span{
     width: 30px; height: 3px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; background-color: #fff;
@@ -15,7 +15,10 @@
 }
 
 .side-menu{
-    width: 70%; height: 100%; overflow: auto; position: fixed; top: 0; left: 0; background-color: rgba(25,21,44,1); padding: 77px 0; box-shadow: rgba(0,0,0,.4) 15px 0 29px; padding: 76px 46px 0 46px;
+    width: 70%; height: 100%; overflow: auto; position: fixed; top: 0; left: -100%; background-color: rgba(25,21,44,1); padding: 77px 0; box-shadow: rgba(0,0,0,.4) 15px 0 29px; padding: 76px 46px 0 46px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; z-index: 3;
+}
+.side-menu.open{
+    left: 0;
 }
 .side-menu .menu{
     margin-top: 100px;

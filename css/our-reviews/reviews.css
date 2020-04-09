@@ -1,0 +1,36 @@
+.our-reviews-back{
+    width: 100%; height: auto; float: left; background-image: url(../../images/our-reviews.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover; padding: 30px; position: relative;
+}
+.our-reviews-back:before{
+    width: 100%; height: 100%; background-color: rgba(11,9,34,.46); position: absolute; top: 0; left: 0; content: "";
+}
+
+.our-reviews-back .reviews-section{
+    width: 100%; float: left; margin-bottom: 60px;  position: relative; 
+}
+.our-reviews-back .reviews-section .reviews-back{
+    width: 100%; height: auto; float: left; background-color: rgba(0,0,0,.7); border-radius: 5px; padding: 20px 20px 35px 20px; position: relative; 
+}
+.our-reviews-back .reviews-section .reviews-back:after{
+    width: 0;   height: 0; border-left: 20px solid transparent;  border-right: 20px solid transparent;  border-top: 20px solid rgba(0,0,0,.7); position: absolute; bottom: -20px; left: 15px; content: "";
+}
+.our-reviews-back .reviews-section .reviews-back p{
+    color: #bcbcbc; font-size: 17px; line-height: 34px;
+}
+.our-reviews-back .reviews-section .profile-back{
+    float: left; position: relative; padding-left: 66px; padding-top: 0;     margin-top: 34px; margin-left: 6px;
+}
+.our-reviews-back .reviews-section .profile-back .pic{ 
+    position: absolute; top: 0; left: 0; border-radius: 100%; width: 52px; height: 52px;
+}
+.our-reviews-back .reviews-section .profile-back p{
+    font-size: 15px; margin-bottom: 10px;
+}
+.rating{ float: left;}
+.rating img{ float: left; margin: 0 1px 0 0;}
+
+@media only screen and (max-width:420px){
+    .our-reviews-back .reviews-section .reviews-back p{
+        font-size: 15px;
+    }
+}

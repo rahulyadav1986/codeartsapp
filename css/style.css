@@ -3,4 +3,9 @@
 @import "header/header.css";
 @import "login/login-register.css";
 @import "home/home.css";
-@import "servics/service.css";
+@import "services/services.css";
+@import "contactus/contact.css";
+@import "service-inner/service-inner.css";
+@import "latest-projects/latest-project.css";
+@import "about-us/aboutus.css";
+@import "our-reviews/reviews.css";
