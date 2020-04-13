@@ -1,0 +1,32 @@
+
+.entry-option{
+    width: 100%; height:100vh; position: relative; top: 0; left: 0; background-image: url(../../images/main-bg.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover; z-index: 10;
+  }
+  
+  .entry-option:before{
+    background-color: rgba(24,20,57,.66); width: 100%; height: 100%; position: absolute; top: 0; left: 0; content: "";
+  }
+  .entry-option .content-area{ height: 100%;}
+  .entry-option .logo{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+  .entry-option:after{
+    background: -moz-linear-gradient(top,  rgba(24,20,57,0) 0%, rgba(22,18,53,0.67) 67%, rgba(22,18,53,1) 100%); 
+    background: -webkit-linear-gradient(top,  rgba(24,20,57,0) 0%,rgba(22,18,53,0.67) 67%,rgba(22,18,53,1) 100%); 
+    background: linear-gradient(to bottom,  rgba(24,20,57,0) 0%,rgba(22,18,53,0.67) 67%,rgba(22,18,53,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00181439', endColorstr='#161235',GradientType=0 ); width: 100%; height: 160px; position: absolute; bottom: 0; left: 0; content: "";
+    }
+  .entry-option p{
+    position: absolute; bottom: 35px; left: 0; width: 100%; text-align: center; font-size: 18px; z-index: 3; padding: 0 35px;
+  }
+.entry-option .button-back{
+    width: 100%; height: 100vh; position: absolute; top: 0; left: 0; display: flex; align-items: center; justify-content: center;
+}
+.entry-option .button-details-back{text-align: center;}
+.entry-option .button-details-back .sec{width: 100%; float: left; margin-bottom: 30px;}   
+.entry-option .button-details-back .sec:first-child a{ background: rgb(1,162,255);
+    background: -moz-linear-gradient(top,  rgba(1,162,255,1) 0%, rgba(1,91,255,1) 98%); 
+    background: -webkit-linear-gradient(top,  rgba(1,162,255,1) 0%,rgba(1,91,255,1) 98%); 
+    background: linear-gradient(to bottom,  rgba(1,162,255,1) 0%,rgba(1,91,255,1) 98%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a2ff', endColorstr='#015bff',GradientType=0 ); border: none}
+.entry-option .button-details-back .sec a{
+    width: 200px; height: 50px; line-height: 48px; display: inline-block; font-size: 18px; text-transform: capitalize; border-radius: 100px; background-color: #181439;
+}

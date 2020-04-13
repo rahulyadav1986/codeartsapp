@@ -8,4 +8,7 @@
 @import "service-inner/service-inner.css";
 @import "latest-projects/latest-project.css";
 @import "about-us/aboutus.css";
+@import "about-inner/about-inner.css";
 @import "our-reviews/reviews.css";
+@import "entry-point/entry-point.css";
+@import "landing-page/landing-page.css";

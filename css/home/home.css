@@ -14,13 +14,13 @@
 .main-landing-page .slider-back .portion:before{
     background-color: rgba(24,20,57,.66); width: 100%; height: 100%; position: absolute; top: 0; left: 0; content: ""; z-index: 1;
 }
-.slider-content{
+.main-landing-page .slider-content{
     width: 100%; height: 100%; position: absolute; top: 0; left: 0; padding-top: 149px; text-align: center; z-index: 2;
 }
-.slider-content h2{
+.main-landing-page .slider-content h2{
     font-size: 53px;width: 100%; text-align: center; float: left; padding: 0 97px; line-height: 68px;
 }
-.slider-content p{
+.main-landing-page .slider-content p{
     font-size: 22px; line-height: 40px; position: absolute; bottom: 246px; left: 0; width: 100%; float: left; padding: 0 84px; 
 }
 
@@ -35,25 +35,25 @@
     position: fixed; bottom: 56px; left: 0; z-index: 3; padding: 0 35px;
 }
 @media only screen and (max-width:580px){
-    .slider-content h2{ 
+    .main-landing-page .slider-content h2{ 
         font-size: 40px; padding: 0 58px;
     }
-    .slider-content p{
+    .main-landing-page .slider-content p{
         padding: 0 30px; font-size: 18px;
     }
-    .slider-content{
+    .main-landing-page .slider-content{
         padding-top: 73px;
     }
 }
 
 @media only screen and (max-width:420px){
-    .slider-content h2{ 
+    .main-landing-page .slider-content h2{ 
         font-size: 34px; padding: 0 55px; line-height: 46px;
     }
-    .slider-content p{
+    .main-landing-page .slider-content p{
         padding: 0 20px; font-size: 16px; line-height: 32px;
     }
-    .slider-content{
+    .main-landing-page .slider-content{
         padding-top: 73px;
     }
     
